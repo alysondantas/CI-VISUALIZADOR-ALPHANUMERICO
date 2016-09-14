@@ -1,0 +1,226 @@
+--------------------------------------------------------------------------------------
+Timing Analyzer Summary
+--------------------------------------------------------------------------------------
+
+Type           : Worst-case tsu
+Slack          : N/A
+Required Time  : None
+Actual Time    : 7.935 ns
+From           : C
+To             : Memoria:inst9|inst76
+From Clock     : --
+To Clock       : A
+Failed Paths   : 0
+
+Type           : Worst-case tco
+Slack          : N/A
+Required Time  : None
+Actual Time    : 70.951 ns
+From           : Memoria:inst9|Contador2:inst86|inst3
+To             : C5
+From Clock     : Clock
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Worst-case tpd
+Slack          : N/A
+Required Time  : None
+Actual Time    : 10.568 ns
+From           : F
+To             : LEDERRO
+From Clock     : --
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Worst-case th
+Slack          : N/A
+Required Time  : None
+Actual Time    : 27.098 ns
+From           : C
+To             : Memoria:inst9|inst73
+From Clock     : --
+To Clock       : Clock
+Failed Paths   : 0
+
+Type           : Clock Setup: 'F'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 227.84 MHz ( period = 4.389 ns )
+From           : Memoria:inst9|inst2
+To             : Memoria:inst9|inst3
+From Clock     : F
+To Clock       : F
+Failed Paths   : 0
+
+Type           : Clock Setup: 'H'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 238.44 MHz ( period = 4.194 ns )
+From           : Memoria:inst9|inst2
+To             : Memoria:inst9|inst3
+From Clock     : H
+To Clock       : H
+Failed Paths   : 0
+
+Type           : Clock Setup: 'G'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 248.82 MHz ( period = 4.019 ns )
+From           : Memoria:inst9|inst2
+To             : Memoria:inst9|inst3
+From Clock     : G
+To Clock       : G
+Failed Paths   : 0
+
+Type           : Clock Setup: 'D'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 304.60 MHz ( period = 3.283 ns )
+From           : Memoria:inst9|inst2
+To             : Memoria:inst9|inst3
+From Clock     : D
+To Clock       : D
+Failed Paths   : 0
+
+Type           : Clock Setup: 'Clock'
+Slack          : N/A
+Required Time  : None
+Actual Time    : Restricted to 340.02 MHz ( period = 2.941 ns )
+From           : Memoria:inst9|inst2
+To             : Memoria:inst9|inst3
+From Clock     : Clock
+To Clock       : Clock
+Failed Paths   : 0
+
+Type           : Clock Setup: 'E'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 358.04 MHz ( period = 2.793 ns )
+From           : Memoria:inst9|inst2
+To             : Memoria:inst9|inst3
+From Clock     : E
+To Clock       : E
+Failed Paths   : 0
+
+Type           : Clock Setup: 'A'
+Slack          : N/A
+Required Time  : None
+Actual Time    : Restricted to 360.10 MHz ( period = 2.777 ns )
+From           : Memoria:inst9|inst2
+To             : Memoria:inst9|inst3
+From Clock     : A
+To Clock       : A
+Failed Paths   : 0
+
+Type           : Clock Setup: 'C'
+Slack          : N/A
+Required Time  : None
+Actual Time    : Restricted to 360.10 MHz ( period = 2.777 ns )
+From           : Memoria:inst9|inst2
+To             : Memoria:inst9|inst3
+From Clock     : C
+To Clock       : C
+Failed Paths   : 0
+
+Type           : Clock Setup: 'B'
+Slack          : N/A
+Required Time  : None
+Actual Time    : Restricted to 360.10 MHz ( period = 2.777 ns )
+From           : Memoria:inst9|inst2
+To             : Memoria:inst9|inst3
+From Clock     : B
+To Clock       : B
+Failed Paths   : 0
+
+Type           : Clock Hold: 'F'
+Slack          : Not operational: Clock Skew > Data Delay
+Required Time  : None
+Actual Time    : N/A
+From           : Memoria:inst9|inst48
+To             : Memoria:inst9|inst49
+From Clock     : F
+To Clock       : F
+Failed Paths   : 49
+
+Type           : Clock Hold: 'H'
+Slack          : Not operational: Clock Skew > Data Delay
+Required Time  : None
+Actual Time    : N/A
+From           : Memoria:inst9|inst48
+To             : Memoria:inst9|inst49
+From Clock     : H
+To Clock       : H
+Failed Paths   : 49
+
+Type           : Clock Hold: 'G'
+Slack          : Not operational: Clock Skew > Data Delay
+Required Time  : None
+Actual Time    : N/A
+From           : Memoria:inst9|inst48
+To             : Memoria:inst9|inst49
+From Clock     : G
+To Clock       : G
+Failed Paths   : 49
+
+Type           : Clock Hold: 'D'
+Slack          : Not operational: Clock Skew > Data Delay
+Required Time  : None
+Actual Time    : N/A
+From           : Memoria:inst9|inst48
+To             : Memoria:inst9|inst49
+From Clock     : D
+To Clock       : D
+Failed Paths   : 49
+
+Type           : Clock Hold: 'E'
+Slack          : Not operational: Clock Skew > Data Delay
+Required Time  : None
+Actual Time    : N/A
+From           : Memoria:inst9|inst48
+To             : Memoria:inst9|inst49
+From Clock     : E
+To Clock       : E
+Failed Paths   : 49
+
+Type           : Clock Hold: 'C'
+Slack          : Not operational: Clock Skew > Data Delay
+Required Time  : None
+Actual Time    : N/A
+From           : Memoria:inst9|inst48
+To             : Memoria:inst9|inst49
+From Clock     : C
+To Clock       : C
+Failed Paths   : 49
+
+Type           : Clock Hold: 'B'
+Slack          : Not operational: Clock Skew > Data Delay
+Required Time  : None
+Actual Time    : N/A
+From           : Memoria:inst9|inst48
+To             : Memoria:inst9|inst49
+From Clock     : B
+To Clock       : B
+Failed Paths   : 48
+
+Type           : Clock Hold: 'Clock'
+Slack          : Not operational: Clock Skew > Data Delay
+Required Time  : None
+Actual Time    : N/A
+From           : Memoria:inst9|inst48
+To             : Memoria:inst9|inst49
+From Clock     : Clock
+To Clock       : Clock
+Failed Paths   : 20
+
+Type           : Total number of failed paths
+Slack          : 
+Required Time  : 
+Actual Time    : 
+From           : 
+To             : 
+From Clock     : 
+To Clock       : 
+Failed Paths   : 362
+
+--------------------------------------------------------------------------------------
+

@@ -1,0 +1,1382 @@
+Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Web Edition
+11
+910
+OFF
+OFF
+OFF
+ON
+ON
+ON
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Library Paths --
+..|..|..|..|users|loki|dropbox|uefs|2016.1|mi - circuitos digitais|projeto ibm at ps2|
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+74151
+# storage
+db|VISUALIZADORALPHANUMERICO.(2).cnf
+db|VISUALIZADORALPHANUMERICO.(2).cnf
+# case_insensitive
+# source_file
+..|..|..|..|altera|90sp2|quartus|libraries|others|maxplus2|74151.tdf
+8e23777b7e77bbea2991510888c2e
+7
+# user_parameter {
+DEVICE_FAMILY
+Cyclone II
+PARAMETER_UNKNOWN
+USR
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+}
+# used_port {
+Y
+-1
+3
+D7
+-1
+3
+D6
+-1
+3
+D5
+-1
+3
+D4
+-1
+3
+D3
+-1
+3
+D2
+-1
+3
+D1
+-1
+3
+D0
+-1
+3
+C
+-1
+3
+B
+-1
+3
+A
+-1
+3
+GN
+-1
+1
+}
+# include_file {
+..|..|..|..|altera|90sp2|quartus|libraries|megafunctions|aglobal.inc
+99832fdf63412df51d7531202d74e75
+}
+# hierarchies {
+Memoria:inst9|74151:inst59
+Memoria:inst9|74151:inst61
+Memoria:inst9|74151:inst64
+Memoria:inst9|74151:inst67
+Memoria:inst9|74151:inst71
+Memoria:inst9|74151:inst74
+Memoria:inst9|74151:inst77
+}
+# macro_sequence
+
+# end
+# entity
+f74151
+# storage
+db|VISUALIZADORALPHANUMERICO.(3).cnf
+db|VISUALIZADORALPHANUMERICO.(3).cnf
+# case_insensitive
+# source_file
+..|..|..|..|altera|90sp2|quartus|libraries|others|maxplus2|f74151.bdf
+c65e61b9657937aab8a5c1a38aae44
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+Memoria:inst9|74151:inst59|f74151:sub
+Memoria:inst9|74151:inst61|f74151:sub
+Memoria:inst9|74151:inst64|f74151:sub
+Memoria:inst9|74151:inst67|f74151:sub
+Memoria:inst9|74151:inst71|f74151:sub
+Memoria:inst9|74151:inst74|f74151:sub
+Memoria:inst9|74151:inst77|f74151:sub
+}
+# macro_sequence
+
+# end
+# entity
+Contador
+# storage
+db|VISUALIZADORALPHANUMERICO.(4).cnf
+db|VISUALIZADORALPHANUMERICO.(4).cnf
+# case_insensitive
+# source_file
+Contador.bdf
+4392f633f8f22991b49e8d9a5e0f5d9
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+DecodificadorMatriz:inst4|Contador:inst12
+}
+# macro_sequence
+
+# end
+# entity
+Debounce
+# storage
+db|VISUALIZADORALPHANUMERICO.(5).cnf
+db|VISUALIZADORALPHANUMERICO.(5).cnf
+# case_insensitive
+# source_file
+Debounce.bdf
+ab23ee4e30eeafa924bc49ca93a86a92
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+Debounce:inst3
+Debounce:inst1
+}
+# macro_sequence
+
+# end
+# entity
+InterpretadorScancode
+# storage
+db|VISUALIZADORALPHANUMERICO.(6).cnf
+db|VISUALIZADORALPHANUMERICO.(6).cnf
+# case_insensitive
+# source_file
+InterpretadorScancode.bdf
+9314c6d447f6fc68361ed9feede297
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+InterpretadorScancode:inst
+}
+# macro_sequence
+
+# end
+# entity
+LED1
+# storage
+db|VISUALIZADORALPHANUMERICO.(7).cnf
+db|VISUALIZADORALPHANUMERICO.(7).cnf
+# case_insensitive
+# source_file
+LED1.bdf
+977f8ab6cb7724cc75ece43bdd85b
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+InterpretadorScancode:inst|LED1:inst
+}
+# macro_sequence
+
+# end
+# entity
+LED2
+# storage
+db|VISUALIZADORALPHANUMERICO.(8).cnf
+db|VISUALIZADORALPHANUMERICO.(8).cnf
+# case_insensitive
+# source_file
+LED2.bdf
+4e7b1e36bcf2fbdd8d5ca02b77773ba
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+InterpretadorScancode:inst|LED2:inst7
+}
+# macro_sequence
+
+# end
+# entity
+LED3
+# storage
+db|VISUALIZADORALPHANUMERICO.(9).cnf
+db|VISUALIZADORALPHANUMERICO.(9).cnf
+# case_insensitive
+# source_file
+LED3.bdf
+edcab27ee22aa0aef02d1516fe2168
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+InterpretadorScancode:inst|LED3:inst9
+}
+# macro_sequence
+
+# end
+# entity
+LED4
+# storage
+db|VISUALIZADORALPHANUMERICO.(10).cnf
+db|VISUALIZADORALPHANUMERICO.(10).cnf
+# case_insensitive
+# source_file
+LED4.bdf
+39985b7d9865eacdf4d369c4f8224bb
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+InterpretadorScancode:inst|LED4:inst2
+}
+# macro_sequence
+
+# end
+# entity
+LED5
+# storage
+db|VISUALIZADORALPHANUMERICO.(11).cnf
+db|VISUALIZADORALPHANUMERICO.(11).cnf
+# case_insensitive
+# source_file
+LED5.bdf
+6dd23ab1a79a6b4941bd45d2452fb
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+InterpretadorScancode:inst|LED5:inst13
+}
+# macro_sequence
+
+# end
+# entity
+LED6
+# storage
+db|VISUALIZADORALPHANUMERICO.(12).cnf
+db|VISUALIZADORALPHANUMERICO.(12).cnf
+# case_insensitive
+# source_file
+LED6.bdf
+ddce39b8974459649895c1ae99cb18
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+InterpretadorScancode:inst|LED6:inst1
+}
+# macro_sequence
+
+# end
+# entity
+LED7
+# storage
+db|VISUALIZADORALPHANUMERICO.(13).cnf
+db|VISUALIZADORALPHANUMERICO.(13).cnf
+# case_insensitive
+# source_file
+LED7.bdf
+3e837b3a5695c5af4b5dbbd2c1a4
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+InterpretadorScancode:inst|LED7:inst15
+}
+# macro_sequence
+
+# end
+# entity
+ContagemDaMemoria
+# storage
+db|VISUALIZADORALPHANUMERICO.(15).cnf
+db|VISUALIZADORALPHANUMERICO.(15).cnf
+# case_insensitive
+# source_file
+ContagemDaMemoria.bdf
+fd701f7b7e0b96cad42eb284ebb6b
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# macro_sequence
+
+# end
+# entity
+Deliciaplex
+# storage
+db|VISUALIZADORALPHANUMERICO.(17).cnf
+db|VISUALIZADORALPHANUMERICO.(17).cnf
+# case_insensitive
+# source_file
+Deliciaplex.bdf
+aee42f10644e74885d1ecdc9be18a483
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+DecodificadorMatriz:inst4|Deliciaplex:inst18
+}
+# macro_sequence
+
+# end
+# entity
+or7
+# storage
+db|VISUALIZADORALPHANUMERICO.(18).cnf
+db|VISUALIZADORALPHANUMERICO.(18).cnf
+# case_insensitive
+# source_file
+or7.bdf
+de52887d131bd197c87b8e7eb4b247c
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+Memoria:inst9|or7:inst84
+DecodificadorMatriz:inst4|or7:inst3
+DecodificadorMatriz:inst4|or7:inst4
+DecodificadorMatriz:inst4|or7:inst5
+DecodificadorMatriz:inst4|or7:inst6
+DecodificadorMatriz:inst4|or7:inst7
+}
+# macro_sequence
+
+# end
+# entity
+Linha1
+# storage
+db|VISUALIZADORALPHANUMERICO.(19).cnf
+db|VISUALIZADORALPHANUMERICO.(19).cnf
+# case_insensitive
+# source_file
+Linha1.bdf
+f9d48bef754df6b79ffe275491f5d575
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+DecodificadorMatriz:inst4|Linha1:inst1
+}
+# macro_sequence
+
+# end
+# entity
+A11
+# storage
+db|VISUALIZADORALPHANUMERICO.(20).cnf
+db|VISUALIZADORALPHANUMERICO.(20).cnf
+# case_insensitive
+# source_file
+A11.bdf
+14ae1a39f2cf9e195f4e3b736dd82599
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+DecodificadorMatriz:inst4|Linha1:inst1|A11:inst1
+}
+# macro_sequence
+
+# end
+# entity
+A13
+# storage
+db|VISUALIZADORALPHANUMERICO.(22).cnf
+db|VISUALIZADORALPHANUMERICO.(22).cnf
+# case_insensitive
+# source_file
+A13.bdf
+134716e7265dcfc429877e26db4bdf17
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+DecodificadorMatriz:inst4|Linha1:inst1|A13:inst3
+}
+# macro_sequence
+
+# end
+# entity
+A14
+# storage
+db|VISUALIZADORALPHANUMERICO.(23).cnf
+db|VISUALIZADORALPHANUMERICO.(23).cnf
+# case_insensitive
+# source_file
+A14.bdf
+29b7505be57f113341a9af5de75bf
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+DecodificadorMatriz:inst4|Linha1:inst1|A14:inst4
+}
+# macro_sequence
+
+# end
+# entity
+A15
+# storage
+db|VISUALIZADORALPHANUMERICO.(24).cnf
+db|VISUALIZADORALPHANUMERICO.(24).cnf
+# case_insensitive
+# source_file
+A15.bdf
+60c7e79a5626822ef3bf1a9c05f3cdb
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+DecodificadorMatriz:inst4|Linha1:inst1|A15:inst7
+}
+# macro_sequence
+
+# end
+# entity
+A25
+# storage
+db|VISUALIZADORALPHANUMERICO.(30).cnf
+db|VISUALIZADORALPHANUMERICO.(30).cnf
+# case_insensitive
+# source_file
+A25.bdf
+64d04232c8e037618b3b4d1cb2289c0
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+DecodificadorMatriz:inst4|Linha2:inst2|A25:inst5
+}
+# macro_sequence
+
+# end
+# entity
+linha3
+# storage
+db|VISUALIZADORALPHANUMERICO.(31).cnf
+db|VISUALIZADORALPHANUMERICO.(31).cnf
+# case_insensitive
+# source_file
+linha3.bdf
+96b587205121a4888bd2f7a1c88449
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+DecodificadorMatriz:inst4|linha3:inst8
+}
+# macro_sequence
+
+# end
+# entity
+linha3led1
+# storage
+db|VISUALIZADORALPHANUMERICO.(32).cnf
+db|VISUALIZADORALPHANUMERICO.(32).cnf
+# case_insensitive
+# source_file
+linha3led1.bdf
+1872e061526485ab5e0d85d834ccbd3
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+DecodificadorMatriz:inst4|linha3:inst8|linha3led1:inst32
+}
+# macro_sequence
+
+# end
+# entity
+linha3led2
+# storage
+db|VISUALIZADORALPHANUMERICO.(33).cnf
+db|VISUALIZADORALPHANUMERICO.(33).cnf
+# case_insensitive
+# source_file
+linha3led2.bdf
+971d25a5b73a63e8f3da8ebc8f2813e
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+DecodificadorMatriz:inst4|linha3:inst8|linha3led2:inst
+}
+# macro_sequence
+
+# end
+# entity
+linha3led3
+# storage
+db|VISUALIZADORALPHANUMERICO.(34).cnf
+db|VISUALIZADORALPHANUMERICO.(34).cnf
+# case_insensitive
+# source_file
+linha3led3.bdf
+7966ce1151c985ce6564ffb9e83056c
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+DecodificadorMatriz:inst4|linha3:inst8|linha3led3:inst33
+}
+# macro_sequence
+
+# end
+# entity
+linha3led4
+# storage
+db|VISUALIZADORALPHANUMERICO.(35).cnf
+db|VISUALIZADORALPHANUMERICO.(35).cnf
+# case_insensitive
+# source_file
+linha3led4.bdf
+502a37351ab345505cbf7578aac95e7
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+DecodificadorMatriz:inst4|linha3:inst8|linha3led4:inst34
+}
+# macro_sequence
+
+# end
+# entity
+linha3led5
+# storage
+db|VISUALIZADORALPHANUMERICO.(36).cnf
+db|VISUALIZADORALPHANUMERICO.(36).cnf
+# case_insensitive
+# source_file
+linha3led5.bdf
+bcd9d651bbb1429290389d443237be13
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+DecodificadorMatriz:inst4|linha3:inst8|linha3led5:inst35
+}
+# macro_sequence
+
+# end
+# entity
+linha4
+# storage
+db|VISUALIZADORALPHANUMERICO.(37).cnf
+db|VISUALIZADORALPHANUMERICO.(37).cnf
+# case_insensitive
+# source_file
+linha4.bdf
+fae97f9f24d33719f849ffff4293ea6
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+DecodificadorMatriz:inst4|linha4:inst11
+}
+# macro_sequence
+
+# end
+# entity
+linha4led1
+# storage
+db|VISUALIZADORALPHANUMERICO.(38).cnf
+db|VISUALIZADORALPHANUMERICO.(38).cnf
+# case_insensitive
+# source_file
+linha4led1.bdf
+f9f080aa33305a77572d2b695c7653
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+DecodificadorMatriz:inst4|linha4:inst11|linha4led1:inst
+}
+# macro_sequence
+
+# end
+# entity
+linha4led2
+# storage
+db|VISUALIZADORALPHANUMERICO.(39).cnf
+db|VISUALIZADORALPHANUMERICO.(39).cnf
+# case_insensitive
+# source_file
+linha4led2.bdf
+1df2fb4878de6b5dc1343c697536cd
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+DecodificadorMatriz:inst4|linha4:inst11|linha4led2:inst6
+}
+# macro_sequence
+
+# end
+# entity
+linha4led3
+# storage
+db|VISUALIZADORALPHANUMERICO.(40).cnf
+db|VISUALIZADORALPHANUMERICO.(40).cnf
+# case_insensitive
+# source_file
+linha4led3.bdf
+532e556944c7782d2cac9bcd4d3634b0
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+DecodificadorMatriz:inst4|linha4:inst11|linha4led3:inst7
+}
+# macro_sequence
+
+# end
+# entity
+linha4led4
+# storage
+db|VISUALIZADORALPHANUMERICO.(41).cnf
+db|VISUALIZADORALPHANUMERICO.(41).cnf
+# case_insensitive
+# source_file
+linha4led4.bdf
+eb8c7d5452bbb648d69868beb5e1fcb
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+DecodificadorMatriz:inst4|linha4:inst11|linha4led4:inst8
+}
+# macro_sequence
+
+# end
+# entity
+linha4led5
+# storage
+db|VISUALIZADORALPHANUMERICO.(42).cnf
+db|VISUALIZADORALPHANUMERICO.(42).cnf
+# case_insensitive
+# source_file
+linha4led5.bdf
+1b685d265b3ba78649ff4802ee5edf8
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+DecodificadorMatriz:inst4|linha4:inst11|linha4led5:inst9
+}
+# macro_sequence
+
+# end
+# entity
+Linha5
+# storage
+db|VISUALIZADORALPHANUMERICO.(43).cnf
+db|VISUALIZADORALPHANUMERICO.(43).cnf
+# case_insensitive
+# source_file
+Linha5.bdf
+b0e82723aafa978616f0a4d73c51f
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+DecodificadorMatriz:inst4|Linha5:inst10
+}
+# macro_sequence
+
+# end
+# entity
+A51
+# storage
+db|VISUALIZADORALPHANUMERICO.(44).cnf
+db|VISUALIZADORALPHANUMERICO.(44).cnf
+# case_insensitive
+# source_file
+A51.bdf
+aafe5289456e2046daac46d988a184ae
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+DecodificadorMatriz:inst4|Linha5:inst10|A51:inst1
+}
+# macro_sequence
+
+# end
+# entity
+A52
+# storage
+db|VISUALIZADORALPHANUMERICO.(45).cnf
+db|VISUALIZADORALPHANUMERICO.(45).cnf
+# case_insensitive
+# source_file
+A52.bdf
+baa63136eeaab1268fa8bd9d0e5c0
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+DecodificadorMatriz:inst4|Linha5:inst10|A52:inst2
+}
+# macro_sequence
+
+# end
+# entity
+A53
+# storage
+db|VISUALIZADORALPHANUMERICO.(46).cnf
+db|VISUALIZADORALPHANUMERICO.(46).cnf
+# case_insensitive
+# source_file
+A53.bdf
+601dbf4affc58dda671376115892d81a
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+DecodificadorMatriz:inst4|Linha5:inst10|A53:inst3
+}
+# macro_sequence
+
+# end
+# entity
+A54
+# storage
+db|VISUALIZADORALPHANUMERICO.(47).cnf
+db|VISUALIZADORALPHANUMERICO.(47).cnf
+# case_insensitive
+# source_file
+A54.bdf
+528652c8e3dce857a39ac85ca62dd81
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+DecodificadorMatriz:inst4|Linha5:inst10|A54:inst4
+}
+# macro_sequence
+
+# end
+# entity
+A55
+# storage
+db|VISUALIZADORALPHANUMERICO.(48).cnf
+db|VISUALIZADORALPHANUMERICO.(48).cnf
+# case_insensitive
+# source_file
+A55.bdf
+07156b94066348778c7a12946dbb97
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+DecodificadorMatriz:inst4|Linha5:inst10|A55:inst5
+}
+# macro_sequence
+
+# end
+# entity
+Linha6
+# storage
+db|VISUALIZADORALPHANUMERICO.(49).cnf
+db|VISUALIZADORALPHANUMERICO.(49).cnf
+# case_insensitive
+# source_file
+Linha6.bdf
+a74671f7d07fa8a092eeb87c6ff0f
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+DecodificadorMatriz:inst4|Linha6:inst13
+}
+# macro_sequence
+
+# end
+# entity
+LED1LINHA6MATRIZ
+# storage
+db|VISUALIZADORALPHANUMERICO.(50).cnf
+db|VISUALIZADORALPHANUMERICO.(50).cnf
+# case_insensitive
+# source_file
+LED1LINHA6MATRIZ.bdf
+21ff90b6a6a863e585eeb637472e8712
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+DecodificadorMatriz:inst4|Linha6:inst13|LED1LINHA6MATRIZ:inst
+}
+# macro_sequence
+
+# end
+# entity
+LED2LINHA6MATRIZ
+# storage
+db|VISUALIZADORALPHANUMERICO.(51).cnf
+db|VISUALIZADORALPHANUMERICO.(51).cnf
+# case_insensitive
+# source_file
+LED2LINHA6MATRIZ.bdf
+71c97fa566ad1e1708448b0f64cb1d7
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+DecodificadorMatriz:inst4|Linha6:inst13|LED2LINHA6MATRIZ:inst2
+}
+# macro_sequence
+
+# end
+# entity
+LED3LINHA6MATRIZ
+# storage
+db|VISUALIZADORALPHANUMERICO.(52).cnf
+db|VISUALIZADORALPHANUMERICO.(52).cnf
+# case_insensitive
+# source_file
+LED3LINHA6MATRIZ.bdf
+79cb9af7e5d051d4e3372da77fd110
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+DecodificadorMatriz:inst4|Linha6:inst13|LED3LINHA6MATRIZ:inst4
+}
+# macro_sequence
+
+# end
+# entity
+LED4LINHA6MATRIZ
+# storage
+db|VISUALIZADORALPHANUMERICO.(53).cnf
+db|VISUALIZADORALPHANUMERICO.(53).cnf
+# case_insensitive
+# source_file
+LED4LINHA6MATRIZ.bdf
+98273e923d423ed05d1bccd4a8015a1
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+DecodificadorMatriz:inst4|Linha6:inst13|LED4LINHA6MATRIZ:inst7
+}
+# macro_sequence
+
+# end
+# entity
+LED5LINHA6MATRIZ
+# storage
+db|VISUALIZADORALPHANUMERICO.(54).cnf
+db|VISUALIZADORALPHANUMERICO.(54).cnf
+# case_insensitive
+# source_file
+LED5LINHA6MATRIZ.bdf
+b076181cd4b07c98a85bcdbd72996e
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+DecodificadorMatriz:inst4|Linha6:inst13|LED5LINHA6MATRIZ:inst8
+}
+# macro_sequence
+
+# end
+# entity
+Linha7
+# storage
+db|VISUALIZADORALPHANUMERICO.(55).cnf
+db|VISUALIZADORALPHANUMERICO.(55).cnf
+# case_insensitive
+# source_file
+Linha7.bdf
+e1975e1ef61dd38933f32955cfb16
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+DecodificadorMatriz:inst4|Linha7:inst9
+}
+# macro_sequence
+
+# end
+# entity
+LED1LINHA7MATRIZ
+# storage
+db|VISUALIZADORALPHANUMERICO.(56).cnf
+db|VISUALIZADORALPHANUMERICO.(56).cnf
+# case_insensitive
+# source_file
+LED1LINHA7MATRIZ.bdf
+d4c6712813dd09717431c7de5e611e
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+DecodificadorMatriz:inst4|Linha7:inst9|LED1LINHA7MATRIZ:inst
+}
+# macro_sequence
+
+# end
+# entity
+LED2LINHA7MATRIZ
+# storage
+db|VISUALIZADORALPHANUMERICO.(57).cnf
+db|VISUALIZADORALPHANUMERICO.(57).cnf
+# case_insensitive
+# source_file
+LED2LINHA7MATRIZ.bdf
+3cc33560a4b7ab6937898aa6447a029
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+DecodificadorMatriz:inst4|Linha7:inst9|LED2LINHA7MATRIZ:inst2
+}
+# macro_sequence
+
+# end
+# entity
+LED4LINHA7MATRIZ
+# storage
+db|VISUALIZADORALPHANUMERICO.(59).cnf
+db|VISUALIZADORALPHANUMERICO.(59).cnf
+# case_insensitive
+# source_file
+LED4LINHA7MATRIZ.bdf
+3c6b4e691be1bf742d2ca516f761d43
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+DecodificadorMatriz:inst4|Linha7:inst9|LED4LINHA7MATRIZ:inst10
+}
+# macro_sequence
+
+# end
+# entity
+LED5LINHA7MATRIZ
+# storage
+db|VISUALIZADORALPHANUMERICO.(60).cnf
+db|VISUALIZADORALPHANUMERICO.(60).cnf
+# case_insensitive
+# source_file
+LED5LINHA7MATRIZ.bdf
+f54b3b0959925cd3096eb7c96fac735
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+DecodificadorMatriz:inst4|Linha7:inst9|LED5LINHA7MATRIZ:inst7
+}
+# macro_sequence
+
+# end
+# entity
+divisordefreq
+# storage
+db|VISUALIZADORALPHANUMERICO.(61).cnf
+db|VISUALIZADORALPHANUMERICO.(61).cnf
+# case_insensitive
+# source_file
+divisordefreq.bdf
+c09a0f37f4e7ea81ab482796fc39c5
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+divisordefreq:inst6
+divisordefreq:inst5
+}
+# macro_sequence
+
+# end
+# entity
+divisordefreq2
+# storage
+db|VISUALIZADORALPHANUMERICO.(14).cnf
+db|VISUALIZADORALPHANUMERICO.(14).cnf
+# case_insensitive
+# source_file
+divisordefreq2.bdf
+bdf543933cf8e7247aafff4c37ecf4f8
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+divisordefreq2:inst2
+}
+# macro_sequence
+
+# end
+# entity
+74138
+# storage
+db|VISUALIZADORALPHANUMERICO.(62).cnf
+db|VISUALIZADORALPHANUMERICO.(62).cnf
+# case_insensitive
+# source_file
+..|..|..|..|altera|90sp2|quartus|libraries|others|maxplus2|74138.bdf
+6cadbea2e3f85766eb8e4e262292077
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+Memoria:inst9|74138:inst52
+}
+# macro_sequence
+
+# end
+# entity
+DecodificadorMatriz
+# storage
+db|VISUALIZADORALPHANUMERICO.(16).cnf
+db|VISUALIZADORALPHANUMERICO.(16).cnf
+# case_insensitive
+# source_file
+DecodificadorMatriz.bdf
+c929e1ae175361a3cf1bd6b1b68161
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+DecodificadorMatriz:inst4
+}
+# macro_sequence
+
+# end
+# entity
+A21
+# storage
+db|VISUALIZADORALPHANUMERICO.(26).cnf
+db|VISUALIZADORALPHANUMERICO.(26).cnf
+# case_insensitive
+# source_file
+A21.bdf
+20d449cede1d9ea48913eb90d99f3ec
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+DecodificadorMatriz:inst4|Linha2:inst2|A21:inst1
+}
+# macro_sequence
+
+# end
+# entity
+linha2led2
+# storage
+db|VISUALIZADORALPHANUMERICO.(27).cnf
+db|VISUALIZADORALPHANUMERICO.(27).cnf
+# case_insensitive
+# source_file
+linha2led2.bdf
+6247934c2c3a564fa61b2bcbf6a34
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+DecodificadorMatriz:inst4|Linha2:inst2|linha2led2:inst9
+}
+# macro_sequence
+
+# end
+# entity
+LED3LINHA7MATRIZ
+# storage
+db|VISUALIZADORALPHANUMERICO.(58).cnf
+db|VISUALIZADORALPHANUMERICO.(58).cnf
+# case_insensitive
+# source_file
+LED3LINHA7MATRIZ.bdf
+77a8cbdebd1993782e6688b19c23ac
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+DecodificadorMatriz:inst4|Linha7:inst9|LED3LINHA7MATRIZ:inst4
+}
+# macro_sequence
+
+# end
+# entity
+Linha2
+# storage
+db|VISUALIZADORALPHANUMERICO.(25).cnf
+db|VISUALIZADORALPHANUMERICO.(25).cnf
+# case_insensitive
+# source_file
+Linha2.bdf
+a8d0384b6d6b83f5877955c3f853e37
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+DecodificadorMatriz:inst4|Linha2:inst2
+}
+# macro_sequence
+
+# end
+# entity
+A23
+# storage
+db|VISUALIZADORALPHANUMERICO.(28).cnf
+db|VISUALIZADORALPHANUMERICO.(28).cnf
+# case_insensitive
+# source_file
+A23.bdf
+13e933feef9b13fddc87fba107263cb
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+DecodificadorMatriz:inst4|Linha2:inst2|A23:inst3
+}
+# macro_sequence
+
+# end
+# entity
+A12
+# storage
+db|VISUALIZADORALPHANUMERICO.(21).cnf
+db|VISUALIZADORALPHANUMERICO.(21).cnf
+# case_insensitive
+# source_file
+A12.bdf
+f2bb47b1d97cbc2ca6ae58ea6ffaf760
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+DecodificadorMatriz:inst4|Linha1:inst1|A12:inst2
+}
+# macro_sequence
+
+# end
+# entity
+A24
+# storage
+db|VISUALIZADORALPHANUMERICO.(29).cnf
+db|VISUALIZADORALPHANUMERICO.(29).cnf
+# case_insensitive
+# source_file
+A24.bdf
+a45a83d756c3aa57217814454fcaa517
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+DecodificadorMatriz:inst4|Linha2:inst2|A24:inst4
+}
+# macro_sequence
+
+# end
+# entity
+Contador2
+# storage
+db|VISUALIZADORALPHANUMERICO.(63).cnf
+db|VISUALIZADORALPHANUMERICO.(63).cnf
+# case_insensitive
+# source_file
+Contador2.bdf
+9f768b9ef09d32f2894624caefbf098
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+Memoria:inst9|Contador2:inst86
+}
+# macro_sequence
+
+# end
+# entity
+VISUALIZADORALPHANUMERICO
+# storage
+db|VISUALIZADORALPHANUMERICO.(0).cnf
+db|VISUALIZADORALPHANUMERICO.(0).cnf
+# case_insensitive
+# source_file
+VisualizadorAlphanumerico.bdf
+2bd3df808a5538ae65b3b5279062a8ea
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# entity
+Memoria
+# storage
+db|VISUALIZADORALPHANUMERICO.(1).cnf
+db|VISUALIZADORALPHANUMERICO.(1).cnf
+# case_insensitive
+# source_file
+Memoria.bdf
+21ee9c63829cb1be8c683c772899d64
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+Memoria:inst9
+}
+# macro_sequence
+
+# end
+# complete
+

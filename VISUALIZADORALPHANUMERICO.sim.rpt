@@ -1,0 +1,557 @@
+Simulator report for VISUALIZADORALPHANUMERICO
+Wed Aug 24 18:47:45 2016
+Quartus II Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Simulator Summary
+  3. Simulator Settings
+  4. Simulation Waveforms
+  5. Coverage Summary
+  6. Complete 1/0-Value Coverage
+  7. Missing 1-Value Coverage
+  8. Missing 0-Value Coverage
+  9. Simulator INI Usage
+ 10. Simulator Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2009 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++--------------------------------------------+
+; Simulator Summary                          ;
++-----------------------------+--------------+
+; Type                        ; Value        ;
++-----------------------------+--------------+
+; Simulation Start Time       ; 0 ps         ;
+; Simulation End Time         ; 1.0 us       ;
+; Simulation Netlist Size     ; 198 nodes    ;
+; Simulation Coverage         ;       0.00 % ;
+; Total Number of Transitions ; 0            ;
+; Simulation Breakpoints      ; 0            ;
+; Family                      ; Cyclone II   ;
+; Device                      ; EP2C5T144C8  ;
++-----------------------------+--------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------+
+; Simulator Settings                                                                                                            ;
++--------------------------------------------------------------------------------------------+------------------+---------------+
+; Option                                                                                     ; Setting          ; Default Value ;
++--------------------------------------------------------------------------------------------+------------------+---------------+
+; Simulation mode                                                                            ; Timing           ; Timing        ;
+; Start time                                                                                 ; 0 ns             ; 0 ns          ;
+; Simulation results format                                                                  ; CVWF             ;               ;
+; Vector input source                                                                        ; TesteComBUBA.vwf ;               ;
+; Add pins automatically to simulation output waveforms                                      ; On               ; On            ;
+; Check outputs                                                                              ; Off              ; Off           ;
+; Report simulation coverage                                                                 ; On               ; On            ;
+; Display complete 1/0 value coverage report                                                 ; On               ; On            ;
+; Display missing 1-value coverage report                                                    ; On               ; On            ;
+; Display missing 0-value coverage report                                                    ; On               ; On            ;
+; Detect setup and hold time violations                                                      ; Off              ; Off           ;
+; Detect glitches                                                                            ; Off              ; Off           ;
+; Disable timing delays in Timing Simulation                                                 ; Off              ; Off           ;
+; Generate Signal Activity File                                                              ; Off              ; Off           ;
+; Generate VCD File for PowerPlay Power Analyzer                                             ; Off              ; Off           ;
+; Group bus channels in simulation results                                                   ; Off              ; Off           ;
+; Preserve fewer signal transitions to reduce memory requirements                            ; On               ; On            ;
+; Trigger vector comparison with the specified mode                                          ; INPUT_EDGE       ; INPUT_EDGE    ;
+; Disable setup and hold time violations detection in input registers of bi-directional pins ; Off              ; Off           ;
+; Overwrite Waveform Inputs With Simulation Outputs                                          ; Off              ;               ;
+; Perform Glitch Filtering in Timing Simulation                                              ; Auto             ; Auto          ;
++--------------------------------------------------------------------------------------------+------------------+---------------+
+
+
++----------------------+
+; Simulation Waveforms ;
++----------------------+
+Waveform report data cannot be output to ASCII.
+Please use Quartus II to view the waveform report data.
+
+
++--------------------------------------------------------------------+
+; Coverage Summary                                                   ;
++-----------------------------------------------------+--------------+
+; Type                                                ; Value        ;
++-----------------------------------------------------+--------------+
+; Total coverage as a percentage                      ;       0.00 % ;
+; Total nodes checked                                 ; 198          ;
+; Total output ports checked                          ; 198          ;
+; Total output ports with complete 1/0-value coverage ; 0            ;
+; Total output ports with no 1/0-value coverage       ; 198          ;
+; Total output ports with no 1-value coverage         ; 198          ;
+; Total output ports with no 0-value coverage         ; 198          ;
++-----------------------------------------------------+--------------+
+
+
+The following table displays output ports that toggle between 1 and 0 during simulation.
++-------------------------------------------------+
+; Complete 1/0-Value Coverage                     ;
++-----------+------------------+------------------+
+; Node Name ; Output Port Name ; Output Port Type ;
++-----------+------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 1 during simulation.
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Missing 1-Value Coverage                                                                                                                                                     ;
++-----------------------------------------------------------------------------+-----------------------------------------------------------------------------+------------------+
+; Node Name                                                                   ; Output Port Name                                                            ; Output Port Type ;
++-----------------------------------------------------------------------------+-----------------------------------------------------------------------------+------------------+
+; |VisualizadorAlphanumerico|Memoria:inst9|inst3                              ; |VisualizadorAlphanumerico|Memoria:inst9|inst3                              ; regout           ;
+; |VisualizadorAlphanumerico|Memoria:inst9|Contador:inst1|inst                ; |VisualizadorAlphanumerico|Memoria:inst9|Contador:inst1|inst                ; regout           ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst2                              ; |VisualizadorAlphanumerico|Memoria:inst9|inst2                              ; regout           ;
+; |VisualizadorAlphanumerico|Memoria:inst9|Contador:inst1|inst3               ; |VisualizadorAlphanumerico|Memoria:inst9|Contador:inst1|inst3               ; regout           ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst4                              ; |VisualizadorAlphanumerico|Memoria:inst9|inst4                              ; regout           ;
+; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst59|f74151:sub|81~0       ; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst59|f74151:sub|81~0       ; combout          ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst                               ; |VisualizadorAlphanumerico|Memoria:inst9|inst                               ; regout           ;
+; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst59|f74151:sub|81~1       ; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst59|f74151:sub|81~1       ; combout          ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst6                              ; |VisualizadorAlphanumerico|Memoria:inst9|inst6                              ; regout           ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst7                              ; |VisualizadorAlphanumerico|Memoria:inst9|inst7                              ; regout           ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst8                              ; |VisualizadorAlphanumerico|Memoria:inst9|inst8                              ; regout           ;
+; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst59|f74151:sub|81~2       ; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst59|f74151:sub|81~2       ; combout          ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst5                              ; |VisualizadorAlphanumerico|Memoria:inst9|inst5                              ; regout           ;
+; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst59|f74151:sub|81~3       ; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst59|f74151:sub|81~3       ; combout          ;
+; |VisualizadorAlphanumerico|Memoria:inst9|Contador:inst1|inst5               ; |VisualizadorAlphanumerico|Memoria:inst9|Contador:inst1|inst5               ; regout           ;
+; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst59|f74151:sub|81~4       ; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst59|f74151:sub|81~4       ; combout          ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst10                             ; |VisualizadorAlphanumerico|Memoria:inst9|inst10                             ; regout           ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst9                              ; |VisualizadorAlphanumerico|Memoria:inst9|inst9                              ; regout           ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst11                             ; |VisualizadorAlphanumerico|Memoria:inst9|inst11                             ; regout           ;
+; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst61|f74151:sub|81~0       ; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst61|f74151:sub|81~0       ; combout          ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst63                             ; |VisualizadorAlphanumerico|Memoria:inst9|inst63                             ; regout           ;
+; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst61|f74151:sub|81~1       ; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst61|f74151:sub|81~1       ; combout          ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst13                             ; |VisualizadorAlphanumerico|Memoria:inst9|inst13                             ; regout           ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst14                             ; |VisualizadorAlphanumerico|Memoria:inst9|inst14                             ; regout           ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst15                             ; |VisualizadorAlphanumerico|Memoria:inst9|inst15                             ; regout           ;
+; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst61|f74151:sub|81~2       ; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst61|f74151:sub|81~2       ; combout          ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst12                             ; |VisualizadorAlphanumerico|Memoria:inst9|inst12                             ; regout           ;
+; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst61|f74151:sub|81~3       ; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst61|f74151:sub|81~3       ; combout          ;
+; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst61|f74151:sub|81~4       ; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst61|f74151:sub|81~4       ; combout          ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst17                             ; |VisualizadorAlphanumerico|Memoria:inst9|inst17                             ; regout           ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst16                             ; |VisualizadorAlphanumerico|Memoria:inst9|inst16                             ; regout           ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst18                             ; |VisualizadorAlphanumerico|Memoria:inst9|inst18                             ; regout           ;
+; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst64|f74151:sub|81~0       ; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst64|f74151:sub|81~0       ; combout          ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst66                             ; |VisualizadorAlphanumerico|Memoria:inst9|inst66                             ; regout           ;
+; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst64|f74151:sub|81~1       ; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst64|f74151:sub|81~1       ; combout          ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst20                             ; |VisualizadorAlphanumerico|Memoria:inst9|inst20                             ; regout           ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst21                             ; |VisualizadorAlphanumerico|Memoria:inst9|inst21                             ; regout           ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst22                             ; |VisualizadorAlphanumerico|Memoria:inst9|inst22                             ; regout           ;
+; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst64|f74151:sub|81~2       ; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst64|f74151:sub|81~2       ; combout          ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst19                             ; |VisualizadorAlphanumerico|Memoria:inst9|inst19                             ; regout           ;
+; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst64|f74151:sub|81~3       ; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst64|f74151:sub|81~3       ; combout          ;
+; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst64|f74151:sub|81~4       ; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst64|f74151:sub|81~4       ; combout          ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst24                             ; |VisualizadorAlphanumerico|Memoria:inst9|inst24                             ; regout           ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst23                             ; |VisualizadorAlphanumerico|Memoria:inst9|inst23                             ; regout           ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst25                             ; |VisualizadorAlphanumerico|Memoria:inst9|inst25                             ; regout           ;
+; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst67|f74151:sub|81~0       ; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst67|f74151:sub|81~0       ; combout          ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst69                             ; |VisualizadorAlphanumerico|Memoria:inst9|inst69                             ; regout           ;
+; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst67|f74151:sub|81~1       ; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst67|f74151:sub|81~1       ; combout          ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst27                             ; |VisualizadorAlphanumerico|Memoria:inst9|inst27                             ; regout           ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst28                             ; |VisualizadorAlphanumerico|Memoria:inst9|inst28                             ; regout           ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst29                             ; |VisualizadorAlphanumerico|Memoria:inst9|inst29                             ; regout           ;
+; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst67|f74151:sub|81~2       ; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst67|f74151:sub|81~2       ; combout          ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst26                             ; |VisualizadorAlphanumerico|Memoria:inst9|inst26                             ; regout           ;
+; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst67|f74151:sub|81~3       ; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst67|f74151:sub|81~3       ; combout          ;
+; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst67|f74151:sub|81~4       ; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst67|f74151:sub|81~4       ; combout          ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst31                             ; |VisualizadorAlphanumerico|Memoria:inst9|inst31                             ; regout           ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst30                             ; |VisualizadorAlphanumerico|Memoria:inst9|inst30                             ; regout           ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst32                             ; |VisualizadorAlphanumerico|Memoria:inst9|inst32                             ; regout           ;
+; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst71|f74151:sub|81~0       ; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst71|f74151:sub|81~0       ; combout          ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst70                             ; |VisualizadorAlphanumerico|Memoria:inst9|inst70                             ; regout           ;
+; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst71|f74151:sub|81~1       ; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst71|f74151:sub|81~1       ; combout          ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst34                             ; |VisualizadorAlphanumerico|Memoria:inst9|inst34                             ; regout           ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst35                             ; |VisualizadorAlphanumerico|Memoria:inst9|inst35                             ; regout           ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst36                             ; |VisualizadorAlphanumerico|Memoria:inst9|inst36                             ; regout           ;
+; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst71|f74151:sub|81~2       ; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst71|f74151:sub|81~2       ; combout          ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst33                             ; |VisualizadorAlphanumerico|Memoria:inst9|inst33                             ; regout           ;
+; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst71|f74151:sub|81~3       ; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst71|f74151:sub|81~3       ; combout          ;
+; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst71|f74151:sub|81~4       ; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst71|f74151:sub|81~4       ; combout          ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst38                             ; |VisualizadorAlphanumerico|Memoria:inst9|inst38                             ; regout           ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst37                             ; |VisualizadorAlphanumerico|Memoria:inst9|inst37                             ; regout           ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst39                             ; |VisualizadorAlphanumerico|Memoria:inst9|inst39                             ; regout           ;
+; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst74|f74151:sub|81~0       ; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst74|f74151:sub|81~0       ; combout          ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst73                             ; |VisualizadorAlphanumerico|Memoria:inst9|inst73                             ; regout           ;
+; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst74|f74151:sub|81~1       ; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst74|f74151:sub|81~1       ; combout          ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst41                             ; |VisualizadorAlphanumerico|Memoria:inst9|inst41                             ; regout           ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst42                             ; |VisualizadorAlphanumerico|Memoria:inst9|inst42                             ; regout           ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst43                             ; |VisualizadorAlphanumerico|Memoria:inst9|inst43                             ; regout           ;
+; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst74|f74151:sub|81~2       ; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst74|f74151:sub|81~2       ; combout          ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst40                             ; |VisualizadorAlphanumerico|Memoria:inst9|inst40                             ; regout           ;
+; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst74|f74151:sub|81~3       ; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst74|f74151:sub|81~3       ; combout          ;
+; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst74|f74151:sub|81~4       ; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst74|f74151:sub|81~4       ; combout          ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst45                             ; |VisualizadorAlphanumerico|Memoria:inst9|inst45                             ; regout           ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst44                             ; |VisualizadorAlphanumerico|Memoria:inst9|inst44                             ; regout           ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst46                             ; |VisualizadorAlphanumerico|Memoria:inst9|inst46                             ; regout           ;
+; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst77|f74151:sub|81~0       ; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst77|f74151:sub|81~0       ; combout          ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst76                             ; |VisualizadorAlphanumerico|Memoria:inst9|inst76                             ; regout           ;
+; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst77|f74151:sub|81~1       ; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst77|f74151:sub|81~1       ; combout          ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst48                             ; |VisualizadorAlphanumerico|Memoria:inst9|inst48                             ; regout           ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst49                             ; |VisualizadorAlphanumerico|Memoria:inst9|inst49                             ; regout           ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst50                             ; |VisualizadorAlphanumerico|Memoria:inst9|inst50                             ; regout           ;
+; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst77|f74151:sub|81~2       ; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst77|f74151:sub|81~2       ; combout          ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst47                             ; |VisualizadorAlphanumerico|Memoria:inst9|inst47                             ; regout           ;
+; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst77|f74151:sub|81~3       ; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst77|f74151:sub|81~3       ; combout          ;
+; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst77|f74151:sub|81~4       ; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst77|f74151:sub|81~4       ; combout          ;
+; |VisualizadorAlphanumerico|Memoria:inst9|Contador:inst1|inst3~1             ; |VisualizadorAlphanumerico|Memoria:inst9|Contador:inst1|inst3~1             ; combout          ;
+; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED1:inst|inst25~2    ; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED1:inst|inst25~2    ; combout          ;
+; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED2:inst7|inst4~0    ; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED2:inst7|inst4~0    ; combout          ;
+; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED2:inst7|inst4~1    ; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED2:inst7|inst4~1    ; combout          ;
+; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED1:inst|inst22      ; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED1:inst|inst22      ; combout          ;
+; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED1:inst|inst25~3    ; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED1:inst|inst25~3    ; combout          ;
+; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED2:inst7|inst25~8   ; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED2:inst7|inst25~8   ; combout          ;
+; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED1:inst|inst25~4    ; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED1:inst|inst25~4    ; combout          ;
+; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED4:inst2|inst16~0   ; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED4:inst2|inst16~0   ; combout          ;
+; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED1:inst|inst25~5    ; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED1:inst|inst25~5    ; combout          ;
+; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED1:inst|inst25~6    ; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED1:inst|inst25~6    ; combout          ;
+; |VisualizadorAlphanumerico|Memoria:inst9|Contador:inst1|inst5~1             ; |VisualizadorAlphanumerico|Memoria:inst9|Contador:inst1|inst5~1             ; combout          ;
+; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED5:inst13|inst20~8  ; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED5:inst13|inst20~8  ; combout          ;
+; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED2:inst7|inst25~9   ; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED2:inst7|inst25~9   ; combout          ;
+; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED2:inst7|inst25~10  ; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED2:inst7|inst25~10  ; combout          ;
+; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED2:inst7|inst25~11  ; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED2:inst7|inst25~11  ; combout          ;
+; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED2:inst7|inst3~0    ; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED2:inst7|inst3~0    ; combout          ;
+; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED2:inst7|inst3~1    ; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED2:inst7|inst3~1    ; combout          ;
+; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED2:inst7|inst25~12  ; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED2:inst7|inst25~12  ; combout          ;
+; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED2:inst7|inst25~13  ; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED2:inst7|inst25~13  ; combout          ;
+; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED2:inst7|inst25~14  ; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED2:inst7|inst25~14  ; combout          ;
+; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED6:inst1|inst20~4   ; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED6:inst1|inst20~4   ; combout          ;
+; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED3:inst9|inst17~0   ; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED3:inst9|inst17~0   ; combout          ;
+; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED4:inst2|inst16~1   ; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED4:inst2|inst16~1   ; combout          ;
+; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED5:inst13|inst20~9  ; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED5:inst13|inst20~9  ; combout          ;
+; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED3:inst9|inst17~1   ; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED3:inst9|inst17~1   ; combout          ;
+; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED3:inst9|inst17~2   ; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED3:inst9|inst17~2   ; combout          ;
+; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED3:inst9|inst17~3   ; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED3:inst9|inst17~3   ; combout          ;
+; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED3:inst9|inst17~4   ; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED3:inst9|inst17~4   ; combout          ;
+; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED3:inst9|inst17~5   ; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED3:inst9|inst17~5   ; combout          ;
+; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED4:inst2|inst17~0   ; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED4:inst2|inst17~0   ; combout          ;
+; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED4:inst2|inst17~1   ; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED4:inst2|inst17~1   ; combout          ;
+; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED4:inst2|inst17~2   ; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED4:inst2|inst17~2   ; combout          ;
+; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED2:inst7|inst2~0    ; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED2:inst7|inst2~0    ; combout          ;
+; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED4:inst2|inst16~2   ; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED4:inst2|inst16~2   ; combout          ;
+; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED4:inst2|inst16     ; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED4:inst2|inst16     ; combout          ;
+; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED7:inst15|inst20~4  ; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED7:inst15|inst20~4  ; combout          ;
+; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED4:inst2|inst17~3   ; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED4:inst2|inst17~3   ; combout          ;
+; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED5:inst13|inst20~10 ; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED5:inst13|inst20~10 ; combout          ;
+; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED5:inst13|inst20~11 ; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED5:inst13|inst20~11 ; combout          ;
+; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED5:inst13|inst20~12 ; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED5:inst13|inst20~12 ; combout          ;
+; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED6:inst1|inst20~5   ; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED6:inst1|inst20~5   ; combout          ;
+; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED6:inst1|inst20~6   ; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED6:inst1|inst20~6   ; combout          ;
+; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED6:inst1|inst20~7   ; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED6:inst1|inst20~7   ; combout          ;
+; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED6:inst1|inst20~8   ; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED6:inst1|inst20~8   ; combout          ;
+; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED6:inst1|inst20~9   ; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED6:inst1|inst20~9   ; combout          ;
+; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED6:inst1|inst20~10  ; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED6:inst1|inst20~10  ; combout          ;
+; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED7:inst15|inst20~5  ; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED7:inst15|inst20~5  ; combout          ;
+; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED7:inst15|inst20~6  ; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED7:inst15|inst20~6  ; combout          ;
+; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED1:inst|inst18      ; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED1:inst|inst18      ; combout          ;
+; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED1:inst|inst25~7    ; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED1:inst|inst25~7    ; combout          ;
+; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED5:inst13|inst11~2  ; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED5:inst13|inst11~2  ; combout          ;
+; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED2:inst7|inst25~15  ; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED2:inst7|inst25~15  ; combout          ;
+; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED2:inst7|inst3~2    ; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED2:inst7|inst3~2    ; combout          ;
+; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED7:inst15|inst20~7  ; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED7:inst15|inst20~7  ; combout          ;
+; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED1:inst|inst18~2    ; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED1:inst|inst18~2    ; combout          ;
+; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED7:inst15|inst20~8  ; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED7:inst15|inst20~8  ; combout          ;
+; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED7:inst15|inst20~9  ; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED7:inst15|inst20~9  ; combout          ;
+; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED7:inst15|inst20~10 ; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED7:inst15|inst20~10 ; combout          ;
+; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED7:inst15|inst20~11 ; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED7:inst15|inst20~11 ; combout          ;
+; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED6:inst1|inst20~11  ; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED6:inst1|inst20~11  ; combout          ;
+; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED6:inst1|inst20~12  ; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED6:inst1|inst20~12  ; combout          ;
+; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED5:inst13|inst20~13 ; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED5:inst13|inst20~13 ; combout          ;
+; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED5:inst13|inst20~14 ; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED5:inst13|inst20~14 ; combout          ;
+; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED1:inst|inst25~8    ; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED1:inst|inst25~8    ; combout          ;
+; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED1:inst|inst25~9    ; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED1:inst|inst25~9    ; combout          ;
+; |VisualizadorAlphanumerico|Memoria:inst9|Contador:inst1|inst~1              ; |VisualizadorAlphanumerico|Memoria:inst9|Contador:inst1|inst~1              ; combout          ;
+; |VisualizadorAlphanumerico|pin_name                                         ; |VisualizadorAlphanumerico|pin_name                                         ; padio            ;
+; |VisualizadorAlphanumerico|pin_name10                                       ; |VisualizadorAlphanumerico|pin_name10                                       ; padio            ;
+; |VisualizadorAlphanumerico|pin_name11                                       ; |VisualizadorAlphanumerico|pin_name11                                       ; padio            ;
+; |VisualizadorAlphanumerico|pin_name12                                       ; |VisualizadorAlphanumerico|pin_name12                                       ; padio            ;
+; |VisualizadorAlphanumerico|pin_name13                                       ; |VisualizadorAlphanumerico|pin_name13                                       ; padio            ;
+; |VisualizadorAlphanumerico|pin_name14                                       ; |VisualizadorAlphanumerico|pin_name14                                       ; padio            ;
+; |VisualizadorAlphanumerico|pin_name15                                       ; |VisualizadorAlphanumerico|pin_name15                                       ; padio            ;
+; |VisualizadorAlphanumerico|Clock                                            ; |VisualizadorAlphanumerico|Clock~corein                                     ; combout          ;
+; |VisualizadorAlphanumerico|ClockContador                                    ; |VisualizadorAlphanumerico|ClockContador~corein                             ; combout          ;
+; |VisualizadorAlphanumerico|H                                                ; |VisualizadorAlphanumerico|H~corein                                         ; combout          ;
+; |VisualizadorAlphanumerico|D                                                ; |VisualizadorAlphanumerico|D~corein                                         ; combout          ;
+; |VisualizadorAlphanumerico|B                                                ; |VisualizadorAlphanumerico|B~corein                                         ; combout          ;
+; |VisualizadorAlphanumerico|E                                                ; |VisualizadorAlphanumerico|E~corein                                         ; combout          ;
+; |VisualizadorAlphanumerico|C                                                ; |VisualizadorAlphanumerico|C~corein                                         ; combout          ;
+; |VisualizadorAlphanumerico|F                                                ; |VisualizadorAlphanumerico|F~corein                                         ; combout          ;
+; |VisualizadorAlphanumerico|G                                                ; |VisualizadorAlphanumerico|G~corein                                         ; combout          ;
+; |VisualizadorAlphanumerico|A                                                ; |VisualizadorAlphanumerico|A~corein                                         ; combout          ;
+; |VisualizadorAlphanumerico|ClockContador~clkctrl                            ; |VisualizadorAlphanumerico|ClockContador~clkctrl                            ; outclk           ;
+; |VisualizadorAlphanumerico|Clock~clkctrl                                    ; |VisualizadorAlphanumerico|Clock~clkctrl                                    ; outclk           ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst4~feeder                       ; |VisualizadorAlphanumerico|Memoria:inst9|inst4~feeder                       ; combout          ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst7~feeder                       ; |VisualizadorAlphanumerico|Memoria:inst9|inst7~feeder                       ; combout          ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst11~feeder                      ; |VisualizadorAlphanumerico|Memoria:inst9|inst11~feeder                      ; combout          ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst12~feeder                      ; |VisualizadorAlphanumerico|Memoria:inst9|inst12~feeder                      ; combout          ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst14~feeder                      ; |VisualizadorAlphanumerico|Memoria:inst9|inst14~feeder                      ; combout          ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst18~feeder                      ; |VisualizadorAlphanumerico|Memoria:inst9|inst18~feeder                      ; combout          ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst19~feeder                      ; |VisualizadorAlphanumerico|Memoria:inst9|inst19~feeder                      ; combout          ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst21~feeder                      ; |VisualizadorAlphanumerico|Memoria:inst9|inst21~feeder                      ; combout          ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst26~feeder                      ; |VisualizadorAlphanumerico|Memoria:inst9|inst26~feeder                      ; combout          ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst28~feeder                      ; |VisualizadorAlphanumerico|Memoria:inst9|inst28~feeder                      ; combout          ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst32~feeder                      ; |VisualizadorAlphanumerico|Memoria:inst9|inst32~feeder                      ; combout          ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst33~feeder                      ; |VisualizadorAlphanumerico|Memoria:inst9|inst33~feeder                      ; combout          ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst39~feeder                      ; |VisualizadorAlphanumerico|Memoria:inst9|inst39~feeder                      ; combout          ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst40~feeder                      ; |VisualizadorAlphanumerico|Memoria:inst9|inst40~feeder                      ; combout          ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst42~feeder                      ; |VisualizadorAlphanumerico|Memoria:inst9|inst42~feeder                      ; combout          ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst46~feeder                      ; |VisualizadorAlphanumerico|Memoria:inst9|inst46~feeder                      ; combout          ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst47~feeder                      ; |VisualizadorAlphanumerico|Memoria:inst9|inst47~feeder                      ; combout          ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst49~feeder                      ; |VisualizadorAlphanumerico|Memoria:inst9|inst49~feeder                      ; combout          ;
++-----------------------------------------------------------------------------+-----------------------------------------------------------------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 0 during simulation.
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Missing 0-Value Coverage                                                                                                                                                     ;
++-----------------------------------------------------------------------------+-----------------------------------------------------------------------------+------------------+
+; Node Name                                                                   ; Output Port Name                                                            ; Output Port Type ;
++-----------------------------------------------------------------------------+-----------------------------------------------------------------------------+------------------+
+; |VisualizadorAlphanumerico|Memoria:inst9|inst3                              ; |VisualizadorAlphanumerico|Memoria:inst9|inst3                              ; regout           ;
+; |VisualizadorAlphanumerico|Memoria:inst9|Contador:inst1|inst                ; |VisualizadorAlphanumerico|Memoria:inst9|Contador:inst1|inst                ; regout           ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst2                              ; |VisualizadorAlphanumerico|Memoria:inst9|inst2                              ; regout           ;
+; |VisualizadorAlphanumerico|Memoria:inst9|Contador:inst1|inst3               ; |VisualizadorAlphanumerico|Memoria:inst9|Contador:inst1|inst3               ; regout           ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst4                              ; |VisualizadorAlphanumerico|Memoria:inst9|inst4                              ; regout           ;
+; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst59|f74151:sub|81~0       ; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst59|f74151:sub|81~0       ; combout          ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst                               ; |VisualizadorAlphanumerico|Memoria:inst9|inst                               ; regout           ;
+; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst59|f74151:sub|81~1       ; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst59|f74151:sub|81~1       ; combout          ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst6                              ; |VisualizadorAlphanumerico|Memoria:inst9|inst6                              ; regout           ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst7                              ; |VisualizadorAlphanumerico|Memoria:inst9|inst7                              ; regout           ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst8                              ; |VisualizadorAlphanumerico|Memoria:inst9|inst8                              ; regout           ;
+; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst59|f74151:sub|81~2       ; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst59|f74151:sub|81~2       ; combout          ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst5                              ; |VisualizadorAlphanumerico|Memoria:inst9|inst5                              ; regout           ;
+; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst59|f74151:sub|81~3       ; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst59|f74151:sub|81~3       ; combout          ;
+; |VisualizadorAlphanumerico|Memoria:inst9|Contador:inst1|inst5               ; |VisualizadorAlphanumerico|Memoria:inst9|Contador:inst1|inst5               ; regout           ;
+; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst59|f74151:sub|81~4       ; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst59|f74151:sub|81~4       ; combout          ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst10                             ; |VisualizadorAlphanumerico|Memoria:inst9|inst10                             ; regout           ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst9                              ; |VisualizadorAlphanumerico|Memoria:inst9|inst9                              ; regout           ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst11                             ; |VisualizadorAlphanumerico|Memoria:inst9|inst11                             ; regout           ;
+; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst61|f74151:sub|81~0       ; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst61|f74151:sub|81~0       ; combout          ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst63                             ; |VisualizadorAlphanumerico|Memoria:inst9|inst63                             ; regout           ;
+; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst61|f74151:sub|81~1       ; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst61|f74151:sub|81~1       ; combout          ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst13                             ; |VisualizadorAlphanumerico|Memoria:inst9|inst13                             ; regout           ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst14                             ; |VisualizadorAlphanumerico|Memoria:inst9|inst14                             ; regout           ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst15                             ; |VisualizadorAlphanumerico|Memoria:inst9|inst15                             ; regout           ;
+; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst61|f74151:sub|81~2       ; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst61|f74151:sub|81~2       ; combout          ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst12                             ; |VisualizadorAlphanumerico|Memoria:inst9|inst12                             ; regout           ;
+; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst61|f74151:sub|81~3       ; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst61|f74151:sub|81~3       ; combout          ;
+; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst61|f74151:sub|81~4       ; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst61|f74151:sub|81~4       ; combout          ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst17                             ; |VisualizadorAlphanumerico|Memoria:inst9|inst17                             ; regout           ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst16                             ; |VisualizadorAlphanumerico|Memoria:inst9|inst16                             ; regout           ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst18                             ; |VisualizadorAlphanumerico|Memoria:inst9|inst18                             ; regout           ;
+; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst64|f74151:sub|81~0       ; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst64|f74151:sub|81~0       ; combout          ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst66                             ; |VisualizadorAlphanumerico|Memoria:inst9|inst66                             ; regout           ;
+; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst64|f74151:sub|81~1       ; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst64|f74151:sub|81~1       ; combout          ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst20                             ; |VisualizadorAlphanumerico|Memoria:inst9|inst20                             ; regout           ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst21                             ; |VisualizadorAlphanumerico|Memoria:inst9|inst21                             ; regout           ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst22                             ; |VisualizadorAlphanumerico|Memoria:inst9|inst22                             ; regout           ;
+; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst64|f74151:sub|81~2       ; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst64|f74151:sub|81~2       ; combout          ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst19                             ; |VisualizadorAlphanumerico|Memoria:inst9|inst19                             ; regout           ;
+; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst64|f74151:sub|81~3       ; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst64|f74151:sub|81~3       ; combout          ;
+; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst64|f74151:sub|81~4       ; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst64|f74151:sub|81~4       ; combout          ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst24                             ; |VisualizadorAlphanumerico|Memoria:inst9|inst24                             ; regout           ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst23                             ; |VisualizadorAlphanumerico|Memoria:inst9|inst23                             ; regout           ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst25                             ; |VisualizadorAlphanumerico|Memoria:inst9|inst25                             ; regout           ;
+; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst67|f74151:sub|81~0       ; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst67|f74151:sub|81~0       ; combout          ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst69                             ; |VisualizadorAlphanumerico|Memoria:inst9|inst69                             ; regout           ;
+; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst67|f74151:sub|81~1       ; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst67|f74151:sub|81~1       ; combout          ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst27                             ; |VisualizadorAlphanumerico|Memoria:inst9|inst27                             ; regout           ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst28                             ; |VisualizadorAlphanumerico|Memoria:inst9|inst28                             ; regout           ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst29                             ; |VisualizadorAlphanumerico|Memoria:inst9|inst29                             ; regout           ;
+; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst67|f74151:sub|81~2       ; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst67|f74151:sub|81~2       ; combout          ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst26                             ; |VisualizadorAlphanumerico|Memoria:inst9|inst26                             ; regout           ;
+; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst67|f74151:sub|81~3       ; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst67|f74151:sub|81~3       ; combout          ;
+; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst67|f74151:sub|81~4       ; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst67|f74151:sub|81~4       ; combout          ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst31                             ; |VisualizadorAlphanumerico|Memoria:inst9|inst31                             ; regout           ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst30                             ; |VisualizadorAlphanumerico|Memoria:inst9|inst30                             ; regout           ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst32                             ; |VisualizadorAlphanumerico|Memoria:inst9|inst32                             ; regout           ;
+; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst71|f74151:sub|81~0       ; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst71|f74151:sub|81~0       ; combout          ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst70                             ; |VisualizadorAlphanumerico|Memoria:inst9|inst70                             ; regout           ;
+; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst71|f74151:sub|81~1       ; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst71|f74151:sub|81~1       ; combout          ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst34                             ; |VisualizadorAlphanumerico|Memoria:inst9|inst34                             ; regout           ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst35                             ; |VisualizadorAlphanumerico|Memoria:inst9|inst35                             ; regout           ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst36                             ; |VisualizadorAlphanumerico|Memoria:inst9|inst36                             ; regout           ;
+; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst71|f74151:sub|81~2       ; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst71|f74151:sub|81~2       ; combout          ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst33                             ; |VisualizadorAlphanumerico|Memoria:inst9|inst33                             ; regout           ;
+; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst71|f74151:sub|81~3       ; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst71|f74151:sub|81~3       ; combout          ;
+; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst71|f74151:sub|81~4       ; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst71|f74151:sub|81~4       ; combout          ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst38                             ; |VisualizadorAlphanumerico|Memoria:inst9|inst38                             ; regout           ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst37                             ; |VisualizadorAlphanumerico|Memoria:inst9|inst37                             ; regout           ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst39                             ; |VisualizadorAlphanumerico|Memoria:inst9|inst39                             ; regout           ;
+; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst74|f74151:sub|81~0       ; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst74|f74151:sub|81~0       ; combout          ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst73                             ; |VisualizadorAlphanumerico|Memoria:inst9|inst73                             ; regout           ;
+; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst74|f74151:sub|81~1       ; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst74|f74151:sub|81~1       ; combout          ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst41                             ; |VisualizadorAlphanumerico|Memoria:inst9|inst41                             ; regout           ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst42                             ; |VisualizadorAlphanumerico|Memoria:inst9|inst42                             ; regout           ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst43                             ; |VisualizadorAlphanumerico|Memoria:inst9|inst43                             ; regout           ;
+; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst74|f74151:sub|81~2       ; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst74|f74151:sub|81~2       ; combout          ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst40                             ; |VisualizadorAlphanumerico|Memoria:inst9|inst40                             ; regout           ;
+; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst74|f74151:sub|81~3       ; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst74|f74151:sub|81~3       ; combout          ;
+; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst74|f74151:sub|81~4       ; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst74|f74151:sub|81~4       ; combout          ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst45                             ; |VisualizadorAlphanumerico|Memoria:inst9|inst45                             ; regout           ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst44                             ; |VisualizadorAlphanumerico|Memoria:inst9|inst44                             ; regout           ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst46                             ; |VisualizadorAlphanumerico|Memoria:inst9|inst46                             ; regout           ;
+; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst77|f74151:sub|81~0       ; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst77|f74151:sub|81~0       ; combout          ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst76                             ; |VisualizadorAlphanumerico|Memoria:inst9|inst76                             ; regout           ;
+; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst77|f74151:sub|81~1       ; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst77|f74151:sub|81~1       ; combout          ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst48                             ; |VisualizadorAlphanumerico|Memoria:inst9|inst48                             ; regout           ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst49                             ; |VisualizadorAlphanumerico|Memoria:inst9|inst49                             ; regout           ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst50                             ; |VisualizadorAlphanumerico|Memoria:inst9|inst50                             ; regout           ;
+; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst77|f74151:sub|81~2       ; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst77|f74151:sub|81~2       ; combout          ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst47                             ; |VisualizadorAlphanumerico|Memoria:inst9|inst47                             ; regout           ;
+; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst77|f74151:sub|81~3       ; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst77|f74151:sub|81~3       ; combout          ;
+; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst77|f74151:sub|81~4       ; |VisualizadorAlphanumerico|Memoria:inst9|74151:inst77|f74151:sub|81~4       ; combout          ;
+; |VisualizadorAlphanumerico|Memoria:inst9|Contador:inst1|inst3~1             ; |VisualizadorAlphanumerico|Memoria:inst9|Contador:inst1|inst3~1             ; combout          ;
+; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED1:inst|inst25~2    ; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED1:inst|inst25~2    ; combout          ;
+; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED2:inst7|inst4~0    ; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED2:inst7|inst4~0    ; combout          ;
+; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED2:inst7|inst4~1    ; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED2:inst7|inst4~1    ; combout          ;
+; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED1:inst|inst22      ; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED1:inst|inst22      ; combout          ;
+; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED1:inst|inst25~3    ; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED1:inst|inst25~3    ; combout          ;
+; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED2:inst7|inst25~8   ; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED2:inst7|inst25~8   ; combout          ;
+; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED1:inst|inst25~4    ; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED1:inst|inst25~4    ; combout          ;
+; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED4:inst2|inst16~0   ; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED4:inst2|inst16~0   ; combout          ;
+; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED1:inst|inst25~5    ; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED1:inst|inst25~5    ; combout          ;
+; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED1:inst|inst25~6    ; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED1:inst|inst25~6    ; combout          ;
+; |VisualizadorAlphanumerico|Memoria:inst9|Contador:inst1|inst5~1             ; |VisualizadorAlphanumerico|Memoria:inst9|Contador:inst1|inst5~1             ; combout          ;
+; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED5:inst13|inst20~8  ; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED5:inst13|inst20~8  ; combout          ;
+; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED2:inst7|inst25~9   ; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED2:inst7|inst25~9   ; combout          ;
+; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED2:inst7|inst25~10  ; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED2:inst7|inst25~10  ; combout          ;
+; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED2:inst7|inst25~11  ; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED2:inst7|inst25~11  ; combout          ;
+; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED2:inst7|inst3~0    ; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED2:inst7|inst3~0    ; combout          ;
+; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED2:inst7|inst3~1    ; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED2:inst7|inst3~1    ; combout          ;
+; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED2:inst7|inst25~12  ; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED2:inst7|inst25~12  ; combout          ;
+; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED2:inst7|inst25~13  ; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED2:inst7|inst25~13  ; combout          ;
+; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED2:inst7|inst25~14  ; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED2:inst7|inst25~14  ; combout          ;
+; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED6:inst1|inst20~4   ; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED6:inst1|inst20~4   ; combout          ;
+; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED3:inst9|inst17~0   ; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED3:inst9|inst17~0   ; combout          ;
+; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED4:inst2|inst16~1   ; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED4:inst2|inst16~1   ; combout          ;
+; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED5:inst13|inst20~9  ; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED5:inst13|inst20~9  ; combout          ;
+; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED3:inst9|inst17~1   ; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED3:inst9|inst17~1   ; combout          ;
+; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED3:inst9|inst17~2   ; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED3:inst9|inst17~2   ; combout          ;
+; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED3:inst9|inst17~3   ; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED3:inst9|inst17~3   ; combout          ;
+; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED3:inst9|inst17~4   ; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED3:inst9|inst17~4   ; combout          ;
+; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED3:inst9|inst17~5   ; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED3:inst9|inst17~5   ; combout          ;
+; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED4:inst2|inst17~0   ; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED4:inst2|inst17~0   ; combout          ;
+; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED4:inst2|inst17~1   ; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED4:inst2|inst17~1   ; combout          ;
+; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED4:inst2|inst17~2   ; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED4:inst2|inst17~2   ; combout          ;
+; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED2:inst7|inst2~0    ; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED2:inst7|inst2~0    ; combout          ;
+; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED4:inst2|inst16~2   ; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED4:inst2|inst16~2   ; combout          ;
+; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED4:inst2|inst16     ; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED4:inst2|inst16     ; combout          ;
+; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED7:inst15|inst20~4  ; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED7:inst15|inst20~4  ; combout          ;
+; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED4:inst2|inst17~3   ; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED4:inst2|inst17~3   ; combout          ;
+; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED5:inst13|inst20~10 ; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED5:inst13|inst20~10 ; combout          ;
+; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED5:inst13|inst20~11 ; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED5:inst13|inst20~11 ; combout          ;
+; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED5:inst13|inst20~12 ; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED5:inst13|inst20~12 ; combout          ;
+; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED6:inst1|inst20~5   ; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED6:inst1|inst20~5   ; combout          ;
+; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED6:inst1|inst20~6   ; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED6:inst1|inst20~6   ; combout          ;
+; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED6:inst1|inst20~7   ; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED6:inst1|inst20~7   ; combout          ;
+; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED6:inst1|inst20~8   ; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED6:inst1|inst20~8   ; combout          ;
+; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED6:inst1|inst20~9   ; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED6:inst1|inst20~9   ; combout          ;
+; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED6:inst1|inst20~10  ; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED6:inst1|inst20~10  ; combout          ;
+; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED7:inst15|inst20~5  ; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED7:inst15|inst20~5  ; combout          ;
+; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED7:inst15|inst20~6  ; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED7:inst15|inst20~6  ; combout          ;
+; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED1:inst|inst18      ; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED1:inst|inst18      ; combout          ;
+; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED1:inst|inst25~7    ; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED1:inst|inst25~7    ; combout          ;
+; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED5:inst13|inst11~2  ; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED5:inst13|inst11~2  ; combout          ;
+; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED2:inst7|inst25~15  ; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED2:inst7|inst25~15  ; combout          ;
+; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED2:inst7|inst3~2    ; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED2:inst7|inst3~2    ; combout          ;
+; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED7:inst15|inst20~7  ; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED7:inst15|inst20~7  ; combout          ;
+; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED1:inst|inst18~2    ; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED1:inst|inst18~2    ; combout          ;
+; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED7:inst15|inst20~8  ; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED7:inst15|inst20~8  ; combout          ;
+; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED7:inst15|inst20~9  ; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED7:inst15|inst20~9  ; combout          ;
+; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED7:inst15|inst20~10 ; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED7:inst15|inst20~10 ; combout          ;
+; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED7:inst15|inst20~11 ; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED7:inst15|inst20~11 ; combout          ;
+; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED6:inst1|inst20~11  ; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED6:inst1|inst20~11  ; combout          ;
+; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED6:inst1|inst20~12  ; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED6:inst1|inst20~12  ; combout          ;
+; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED5:inst13|inst20~13 ; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED5:inst13|inst20~13 ; combout          ;
+; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED5:inst13|inst20~14 ; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED5:inst13|inst20~14 ; combout          ;
+; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED1:inst|inst25~8    ; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED1:inst|inst25~8    ; combout          ;
+; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED1:inst|inst25~9    ; |VisualizadorAlphanumerico|InterpretadorScancode:inst|LED1:inst|inst25~9    ; combout          ;
+; |VisualizadorAlphanumerico|Memoria:inst9|Contador:inst1|inst~1              ; |VisualizadorAlphanumerico|Memoria:inst9|Contador:inst1|inst~1              ; combout          ;
+; |VisualizadorAlphanumerico|pin_name                                         ; |VisualizadorAlphanumerico|pin_name                                         ; padio            ;
+; |VisualizadorAlphanumerico|pin_name10                                       ; |VisualizadorAlphanumerico|pin_name10                                       ; padio            ;
+; |VisualizadorAlphanumerico|pin_name11                                       ; |VisualizadorAlphanumerico|pin_name11                                       ; padio            ;
+; |VisualizadorAlphanumerico|pin_name12                                       ; |VisualizadorAlphanumerico|pin_name12                                       ; padio            ;
+; |VisualizadorAlphanumerico|pin_name13                                       ; |VisualizadorAlphanumerico|pin_name13                                       ; padio            ;
+; |VisualizadorAlphanumerico|pin_name14                                       ; |VisualizadorAlphanumerico|pin_name14                                       ; padio            ;
+; |VisualizadorAlphanumerico|pin_name15                                       ; |VisualizadorAlphanumerico|pin_name15                                       ; padio            ;
+; |VisualizadorAlphanumerico|Clock                                            ; |VisualizadorAlphanumerico|Clock~corein                                     ; combout          ;
+; |VisualizadorAlphanumerico|ClockContador                                    ; |VisualizadorAlphanumerico|ClockContador~corein                             ; combout          ;
+; |VisualizadorAlphanumerico|H                                                ; |VisualizadorAlphanumerico|H~corein                                         ; combout          ;
+; |VisualizadorAlphanumerico|D                                                ; |VisualizadorAlphanumerico|D~corein                                         ; combout          ;
+; |VisualizadorAlphanumerico|B                                                ; |VisualizadorAlphanumerico|B~corein                                         ; combout          ;
+; |VisualizadorAlphanumerico|E                                                ; |VisualizadorAlphanumerico|E~corein                                         ; combout          ;
+; |VisualizadorAlphanumerico|C                                                ; |VisualizadorAlphanumerico|C~corein                                         ; combout          ;
+; |VisualizadorAlphanumerico|F                                                ; |VisualizadorAlphanumerico|F~corein                                         ; combout          ;
+; |VisualizadorAlphanumerico|G                                                ; |VisualizadorAlphanumerico|G~corein                                         ; combout          ;
+; |VisualizadorAlphanumerico|A                                                ; |VisualizadorAlphanumerico|A~corein                                         ; combout          ;
+; |VisualizadorAlphanumerico|ClockContador~clkctrl                            ; |VisualizadorAlphanumerico|ClockContador~clkctrl                            ; outclk           ;
+; |VisualizadorAlphanumerico|Clock~clkctrl                                    ; |VisualizadorAlphanumerico|Clock~clkctrl                                    ; outclk           ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst4~feeder                       ; |VisualizadorAlphanumerico|Memoria:inst9|inst4~feeder                       ; combout          ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst7~feeder                       ; |VisualizadorAlphanumerico|Memoria:inst9|inst7~feeder                       ; combout          ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst11~feeder                      ; |VisualizadorAlphanumerico|Memoria:inst9|inst11~feeder                      ; combout          ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst12~feeder                      ; |VisualizadorAlphanumerico|Memoria:inst9|inst12~feeder                      ; combout          ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst14~feeder                      ; |VisualizadorAlphanumerico|Memoria:inst9|inst14~feeder                      ; combout          ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst18~feeder                      ; |VisualizadorAlphanumerico|Memoria:inst9|inst18~feeder                      ; combout          ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst19~feeder                      ; |VisualizadorAlphanumerico|Memoria:inst9|inst19~feeder                      ; combout          ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst21~feeder                      ; |VisualizadorAlphanumerico|Memoria:inst9|inst21~feeder                      ; combout          ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst26~feeder                      ; |VisualizadorAlphanumerico|Memoria:inst9|inst26~feeder                      ; combout          ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst28~feeder                      ; |VisualizadorAlphanumerico|Memoria:inst9|inst28~feeder                      ; combout          ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst32~feeder                      ; |VisualizadorAlphanumerico|Memoria:inst9|inst32~feeder                      ; combout          ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst33~feeder                      ; |VisualizadorAlphanumerico|Memoria:inst9|inst33~feeder                      ; combout          ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst39~feeder                      ; |VisualizadorAlphanumerico|Memoria:inst9|inst39~feeder                      ; combout          ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst40~feeder                      ; |VisualizadorAlphanumerico|Memoria:inst9|inst40~feeder                      ; combout          ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst42~feeder                      ; |VisualizadorAlphanumerico|Memoria:inst9|inst42~feeder                      ; combout          ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst46~feeder                      ; |VisualizadorAlphanumerico|Memoria:inst9|inst46~feeder                      ; combout          ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst47~feeder                      ; |VisualizadorAlphanumerico|Memoria:inst9|inst47~feeder                      ; combout          ;
+; |VisualizadorAlphanumerico|Memoria:inst9|inst49~feeder                      ; |VisualizadorAlphanumerico|Memoria:inst9|inst49~feeder                      ; combout          ;
++-----------------------------------------------------------------------------+-----------------------------------------------------------------------------+------------------+
+
+
++---------------------+
+; Simulator INI Usage ;
++--------+------------+
+; Option ; Usage      ;
++--------+------------+
+
+
++--------------------+
+; Simulator Messages ;
++--------------------+
+Info: *******************************************************************
+Info: Running Quartus II Simulator
+    Info: Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Web Edition
+    Info: Processing started: Wed Aug 24 18:47:45 2016
+Info: Command: quartus_sim --read_settings_files=on --write_settings_files=off VISUALIZADORALPHANUMERICO -c VISUALIZADORALPHANUMERICO
+Info: Using vector source file "Z:/home/alyson/Quartus/9/PROJETO VISUALIZADOR ALPHANUMERICO/TesteComBUBA.vwf"
+Info: Option to preserve fewer signal transitions to reduce memory requirements is enabled
+    Info: Simulation has been partitioned into sub-simulations according to the maximum transition count determined by the engine. Transitions from memory will be flushed out to disk at the end of each sub-simulation to reduce memory requirements.
+Info: Simulation partitioned into 1 sub-simulations
+Info: Simulation coverage is       0.00 %
+Info: Number of transitions in simulation is 0
+Info: Quartus II Simulator was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 0 megabytes
+    Info: Processing ended: Wed Aug 24 18:47:45 2016
+    Info: Elapsed time: 00:00:00
+    Info: Total CPU time (on all processors): 00:00:00
+
+
